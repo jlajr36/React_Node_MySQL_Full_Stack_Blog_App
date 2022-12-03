@@ -1,8 +1,14 @@
 import React from "react";
+import Logo from "../img/linux-logo.png";
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer>
+            <img src={Logo} alt="linux" />
+            <span>
+                Made with <b>React.js</b>
+            </span>
+        </footer>
     );
 };
 
